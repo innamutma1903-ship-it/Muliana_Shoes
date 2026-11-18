@@ -1,0 +1,6 @@
+{
+  "name": "Muliana Shoes — Sepatu Pilihanmu, Gaya Andalanmu",
+  "description": "Landing page resmi Muliana Shoes Cabang Lampu Merah Sunu dengan preview video toko, simulasi pilih sepatu dan harga paket, serta panduan kunjungan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

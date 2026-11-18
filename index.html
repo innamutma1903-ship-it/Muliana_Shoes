@@ -1,0 +1,1415 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muliana Shoes — Sepatu Pilihanmu, Gaya Andalanmu</title>
+    <meta
+      name="description"
+      content="Temukan koleksi sneakers dan sepatu kasual nyaman di Muliana Shoes Cabang Lampu Merah Sunu. Coba langsung di toko atau hitung estimasi lewat simulasi penawaran."
+    />
+    <meta property="og:title" content="Muliana Shoes — Sepatu Pilihanmu, Gaya Andalanmu" />
+    <meta
+      property="og:description"
+      content="Temukan koleksi sneakers dan sepatu kasual nyaman di Muliana Shoes Cabang Lampu Merah Sunu."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Plus Jakarta Sans (Display) + DM Sans (Body) + JetBrains Mono (Tabular Numerals) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&family=JetBrains+Mono:wght@500;600&family=Plus+Jakarta+Sans:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      if (typeof window.tailwind !== 'undefined') {
+        window.tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                display: ['"Plus Jakarta Sans"', 'sans-serif'],
+                sans: ['"DM Sans"', 'sans-serif'],
+                mono: ['"JetBrains Mono"', 'monospace'],
+              },
+              colors: {
+                canvas: '#FAFAF9',
+                ink: '#18181B',
+                rosebrand: {
+                  50: '#FDF2F8',
+                  100: '#FCE7F3',
+                  600: '#DB2777',
+                  700: '#BE185D',
+                  800: '#9D174D',
+                },
+              },
+            },
+          },
+        };
+      }
+    </script>
+
+    <style>
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto !important;
+        }
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+      .text-balance {
+        text-wrap: balance;
+      }
+      .tabular-nums {
+        font-variant-numeric: tabular-nums;
+      }
+    </style>
+  </head>
+
+  <body class="bg-canvas text-ink font-sans antialiased selection:bg-rosebrand-100 selection:text-rosebrand-800">
+    <!-- Skip Link for Keyboard Accessibility -->
+    <a
+      href="#konten-utama"
+      class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:rounded-lg focus:bg-zinc-900 focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-white focus:outline-none focus:ring-2 focus:ring-rosebrand-700"
+    >
+      Langsung ke konten utama
+    </a>
+
+    <!-- 1. STICKY NAVBAR (3-Zone Top Bar Contract, compact <= 64px for 15% mobile cap) -->
+    <header
+      id="navbar"
+      class="sticky top-0 z-40 border-b border-zinc-200/90 bg-white/95 backdrop-blur-md"
+    >
+      <div class="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6 lg:gap-8 lg:px-8">
+        <!-- Zone 1: Single-line Brand Wordmark -->
+        <a
+          href="#beranda"
+          class="font-display text-lg font-bold tracking-tight text-zinc-900 whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700 rounded"
+        >
+          Muliana Shoes
+        </a>
+
+        <!-- Zone 2: Concise Single-line Navigation Links (Desktop) -->
+        <nav aria-label="Navigasi utama" class="hidden md:flex items-center gap-6 text-sm font-medium text-zinc-600">
+          <a
+            href="#masalah-solusi"
+            class="whitespace-nowrap shrink-0 py-1 hover:text-zinc-900 hover:underline underline-offset-4 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700 rounded"
+          >
+            Solusi
+          </a>
+          <a
+            href="#fitur"
+            class="whitespace-nowrap shrink-0 py-1 hover:text-zinc-900 hover:underline underline-offset-4 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700 rounded"
+          >
+            Keunggulan
+          </a>
+          <a
+            href="#video"
+            class="whitespace-nowrap shrink-0 py-1 hover:text-zinc-900 hover:underline underline-offset-4 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700 rounded"
+          >
+            Video
+          </a>
+          <a
+            href="#simulasi"
+            class="whitespace-nowrap shrink-0 py-1 hover:text-zinc-900 hover:underline underline-offset-4 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700 rounded"
+          >
+            Simulasi
+          </a>
+          <a
+            href="#faq"
+            class="whitespace-nowrap shrink-0 py-1 hover:text-zinc-900 hover:underline underline-offset-4 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700 rounded"
+          >
+            FAQ
+          </a>
+        </nav>
+
+        <!-- Zone 3: Single Primary Action + Mobile Menu Trigger -->
+        <div class="flex items-center gap-2 shrink-0">
+          <a
+            href="#simulasi"
+            class="inline-flex min-h-[40px] items-center justify-center rounded-lg bg-rosebrand-700 px-4 py-2 text-xs sm:text-sm font-semibold text-white whitespace-nowrap shrink-0 hover:bg-rosebrand-800 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700 focus-visible:ring-offset-2"
+          >
+            Hitung Simulasi
+          </a>
+          <button
+            id="mobile-menu-btn"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            aria-label="Buka menu navigasi"
+            class="inline-flex h-11 w-11 items-center justify-center rounded-lg border border-zinc-200 text-zinc-700 hover:bg-zinc-100 md:hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700"
+          >
+            <svg id="icon-menu-open" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+            <svg id="icon-menu-close" class="hidden h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation Panel -->
+      <nav
+        id="mobile-menu"
+        aria-label="Navigasi seluler"
+        class="hidden border-t border-zinc-200 bg-white px-4 py-3 md:hidden"
+      >
+        <ul class="flex flex-col gap-1 text-sm font-medium text-zinc-700">
+          <li>
+            <a href="#masalah-solusi" class="mobile-nav-link flex min-h-[44px] items-center rounded-lg px-3 hover:bg-zinc-100 hover:text-zinc-900">
+              Masalah &amp; Solusi
+            </a>
+          </li>
+          <li>
+            <a href="#fitur" class="mobile-nav-link flex min-h-[44px] items-center rounded-lg px-3 hover:bg-zinc-100 hover:text-zinc-900">
+              4 Keunggulan Utama
+            </a>
+          </li>
+          <li>
+            <a href="#video" class="mobile-nav-link flex min-h-[44px] items-center rounded-lg px-3 hover:bg-zinc-100 hover:text-zinc-900">
+              Video Suasana Toko
+            </a>
+          </li>
+          <li>
+            <a href="#simulasi" class="mobile-nav-link flex min-h-[44px] items-center rounded-lg px-3 hover:bg-zinc-100 hover:text-zinc-900">
+              Simulasi Harga &amp; Ukuran
+            </a>
+          </li>
+          <li>
+            <a href="#faq" class="mobile-nav-link flex min-h-[44px] items-center rounded-lg px-3 hover:bg-zinc-100 hover:text-zinc-900">
+              Pertanyaan Umum (FAQ)
+            </a>
+          </li>
+          <li class="pt-1 border-t border-zinc-100">
+            <a
+              href="https://wa.me/6285756850861?text=Halo%20Muliana%20Shoes%2C%20saya%20ingin%20tanya%20stok%20sepatu%20di%20Cabang%20Lampu%20Merah%20Sunu."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="mobile-nav-link flex min-h-[44px] items-center gap-2 rounded-lg px-3 font-semibold text-emerald-700 hover:bg-emerald-50"
+            >
+              Hubungi WhatsApp (0857-5685-0861)
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="konten-utama">
+      <!-- 2. HERO + CTA -->
+      <section id="beranda" class="border-b border-zinc-200 bg-white">
+        <div class="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14 lg:px-8 lg:py-20">
+          <div class="grid grid-cols-1 items-stretch gap-8 lg:grid-cols-12 lg:gap-12">
+            <!-- Left Column: Copy & Primary CTA -->
+            <div class="flex flex-col justify-center lg:col-span-7">
+              <p class="text-xs font-medium tracking-wide text-zinc-500">
+                Cabang Lampu Merah Sunu <span aria-hidden="true" class="mx-1.5">·</span> Koleksi Sneakers &amp; Sepatu Harian
+              </p>
+
+              <h1
+                class="mt-3 font-display font-bold tracking-tight text-zinc-900 text-balance"
+                style="font-size: clamp(2.15rem, 4.2vw, 3.5rem); line-height: 1.1;"
+              >
+                Sepatu Pilihanmu, Gaya Andalanmu Setiap Hari
+              </h1>
+
+              <p class="mt-5 max-w-xl text-base leading-relaxed text-zinc-600 sm:text-lg">
+                Temukan sneakers ringan, rapi, dan pas di kaki tanpa perlu menebak ukuran dari foto.
+                Datang ke Muliana Shoes untuk lihat langsung pilihan modelnya, coba di tempat, atau
+                hitung estimasi pasangan pilihanmu lewat simulasi di bawah.
+              </p>
+
+              <div class="mt-8 flex flex-wrap items-center gap-4">
+                <a
+                  href="#simulasi"
+                  class="inline-flex min-h-[48px] items-center justify-center rounded-lg bg-rosebrand-700 px-6 py-3 text-sm font-semibold text-white whitespace-nowrap shrink-0 hover:bg-rosebrand-800 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700 focus-visible:ring-offset-2"
+                >
+                  Mulai Simulasi Sepatu
+                </a>
+                <a
+                  href="https://wa.me/6285756850861?text=Halo%20Muliana%20Shoes%2C%20saya%20ingin%20tanya%20koleksi%20sepatu%20di%20Cabang%20Lampu%20Merah%20Sunu."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex min-h-[48px] items-center justify-center gap-2 rounded-lg border border-zinc-300 bg-white px-5 py-3 text-sm font-semibold text-zinc-800 whitespace-nowrap shrink-0 hover:bg-zinc-50 hover:border-zinc-400 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700"
+                >
+                  <svg class="h-4 w-4 text-emerald-700 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.79 14.12c-.24.68-1.41 1.3-1.95 1.38-.5.08-1.13.11-1.82-.11-.42-.14-.96-.32-1.65-.62-2.9-1.26-4.79-4.18-4.94-4.38-.14-.19-1.18-1.57-1.18-3s.75-2.12 1.01-2.41c.26-.29.58-.36.77-.36h.56c.18 0 .42-.07.66.5.24.58.82 2 .89 2.15.07.14.12.31.02.5-.1.19-.14.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.3-.12.59.17.29.75 1.24 1.62 2.01 1.11.99 2.05 1.3 2.34 1.44.29.14.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.65-.14.26.1 1.69.8 1.98.94.29.14.48.22.55.34.07.12.07.69-.17 1.37z" />
+                  </svg>
+                  <span>Hubungi WhatsApp</span>
+                </a>
+              </div>
+              <p class="mt-3 text-xs text-zinc-500">
+                WhatsApp Penjual: <a href="https://wa.me/6285756850861" target="_blank" rel="noopener noreferrer" class="font-mono font-medium text-zinc-700 underline underline-offset-4 hover:text-rosebrand-700 tabular-nums">0857-5685-0861</a>
+              </p>
+
+              <!-- Claim-adjacent Concrete Facts (No Pills, Clean Hairline Grid) -->
+              <dl class="mt-10 grid grid-cols-1 gap-5 border-t border-zinc-200 pt-6 sm:grid-cols-3">
+                <div>
+                  <dt class="text-xs text-zinc-500">Rentang Ukuran Tersedia</dt>
+                  <dd class="mt-1 font-display text-lg font-bold text-zinc-900 tabular-nums">EU 36 – 43</dd>
+                </div>
+                <div>
+                  <dt class="text-xs text-zinc-500">Kisaran Harga Mulai</dt>
+                  <dd class="mt-1 font-display text-lg font-bold text-zinc-900 tabular-nums">Rp175.000</dd>
+                </div>
+                <div>
+                  <dt class="text-xs text-zinc-500">Layanan di Cabang Sunu</dt>
+                  <dd class="mt-1 font-display text-lg font-bold text-zinc-900">Bisa Coba Langsung</dd>
+                </div>
+              </dl>
+            </div>
+
+            <!-- Right Column: Real Shoe Rack Visual (Shoes Only) -->
+            <div class="lg:col-span-5">
+              <figure class="relative h-full min-h-[320px] overflow-hidden rounded-xl border border-zinc-200 bg-zinc-100 sm:min-h-[420px]">
+                <img
+                  src="/src/assets/images/muliana_hero_sneaker_rack_1794817007845.jpg"
+                  alt="Rak display Muliana Shoes yang tersusun rapi dengan koleksi sneakers putih, hitam-pink, dan biru"
+                  referrerpolicy="no-referrer"
+                  class="h-full w-full object-cover object-center"
+                  onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden'); this.nextElementSibling.classList.add('flex');"
+                />
+                <!-- Zero-Broken-Image Styled Fallback -->
+                <div class="hidden h-full w-full flex-col items-center justify-center bg-zinc-100 p-6 text-center">
+                  <svg class="h-12 w-12 text-zinc-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5z" />
+                  </svg>
+                  <p class="mt-3 text-sm font-semibold text-zinc-800">Koleksi Rak Muliana Shoes</p>
+                  <p class="mt-1 text-xs text-zinc-500">Cabang Lampu Merah Sunu</p>
+                </div>
+                <figcaption class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-5 pt-14 text-white">
+                  <p class="text-sm font-semibold">Rak Koleksi Lengkap &amp; Tertata</p>
+                  <p class="mt-0.5 text-xs text-zinc-200">
+                    Bandingkan warna putih, hitam-pink, hingga biru langsung di cabang Lampu Merah Sunu.
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. PROBLEM - SOLUTION -->
+      <section id="masalah-solusi" class="border-b border-zinc-200 bg-canvas py-14 sm:py-16 lg:py-20">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div class="max-w-2xl">
+            <p class="text-xs font-medium text-zinc-500">Masalah &amp; Solusi</p>
+            <h2 class="mt-2 font-display text-2xl font-bold tracking-tight text-zinc-900 sm:text-3xl text-balance">
+              Belanja sepatu sering bikin ragu sebelum dipakai
+            </h2>
+            <p class="mt-3 text-base text-zinc-600">
+              Banyak pembeli pulang dengan sepatu yang cepat membuat kaki pegal atau tidak cocok dengan setelan harian.
+              Ini cara Muliana Shoes mengatasinya.
+            </p>
+          </div>
+
+          <div class="mt-10 grid grid-cols-1 gap-6 lg:grid-cols-2 lg:gap-8">
+            <!-- Problem Column -->
+            <article class="rounded-xl border border-zinc-200 bg-white p-6 sm:p-8">
+              <p class="text-xs font-semibold uppercase tracking-wider text-zinc-500">Kendala Umum Pembeli</p>
+              <h3 class="mt-2 font-display text-xl font-bold text-zinc-900">
+                Kenapa banyak orang salah pilih sepatu?
+              </h3>
+              <ul class="mt-6 space-y-5 border-t border-zinc-100 pt-6">
+                <li>
+                  <p class="font-semibold text-zinc-900">1. Ukuran di foto sering meleset di kaki</p>
+                  <p class="mt-1 text-sm leading-relaxed text-zinc-600">
+                    Beli tanpa mencoba berisiko membuat ujung jari tertekan atau tumit longgar saat dipakai berjalan jauh.
+                  </p>
+                </li>
+                <li>
+                  <p class="font-semibold text-zinc-900">2. Susah membandingkan warna dan model secara langsung</p>
+                  <p class="mt-1 text-sm leading-relaxed text-zinc-600">
+                    Stok toko yang berantakan membuat pembeli bingung mencari varian yang selaras dengan celana jeans, kerja, atau olahraga.
+                  </p>
+                </li>
+                <li>
+                  <p class="font-semibold text-zinc-900">3. Sol kaku dan tidak nyaman untuk aktivitas seharian</p>
+                  <p class="mt-1 text-sm leading-relaxed text-zinc-600">
+                    Tampilan luar terlihat menarik, tetapi bantalan alas terasa keras setelah dipakai 2–3 jam.
+                  </p>
+                </li>
+              </ul>
+            </article>
+
+            <!-- Solution Column -->
+            <article class="rounded-xl border border-zinc-900 bg-zinc-900 p-6 text-white sm:p-8">
+              <p class="text-xs font-semibold uppercase tracking-wider text-rosebrand-100">Solusi Muliana Shoes</p>
+              <h3 class="mt-2 font-display text-xl font-bold text-white">
+                Pengalaman pilih sepatu yang pasti dan nyaman
+              </h3>
+              <ul class="mt-6 space-y-5 border-t border-zinc-800 pt-6">
+                <li>
+                  <p class="font-semibold text-white">1. Coba langsung di toko &amp; rasakan langkahnya</p>
+                  <p class="mt-1 text-sm leading-relaxed text-zinc-300">
+                    Kamu bisa langsung memakai kedua sisi sepatu, berjalan beberapa langkah di lantai toko, dan memastikan pas sebelum bayar.
+                  </p>
+                </li>
+                <li>
+                  <p class="font-semibold text-white">2. Rak tertata rapi per seri dan ukuran</p>
+                  <p class="mt-1 text-sm leading-relaxed text-zinc-300">
+                    Dari sneakers putih aksen pink, hitam-pink, hingga seri sport biru—semuanya terpajang rapi sehingga mudah dibandingkan dalam hitungan menit.
+                  </p>
+                </li>
+                <li>
+                  <p class="font-semibold text-white">3. Simulasi anggaran &amp; stok sebelum datang</p>
+                  <p class="mt-1 text-sm leading-relaxed text-zinc-300">
+                    Hitung estimasi harga beserta promo paket lebih dulu dari HP-mu, lalu kunci pilihanmu untuk diambil di Cabang Lampu Merah Sunu.
+                  </p>
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. 4 FITUR UNGGULAN -->
+      <section id="fitur" class="border-b border-zinc-200 bg-white py-14 sm:py-16 lg:py-20">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 items-stretch gap-8 lg:grid-cols-12 lg:gap-12">
+            <!-- Left Visual Spotlight (Shoe-Only Product Photo) -->
+            <div class="order-2 lg:order-1 lg:col-span-5">
+              <figure class="relative h-full min-h-[320px] overflow-hidden rounded-xl border border-zinc-200 bg-zinc-100">
+                <img
+                  src="/src/assets/images/muliana_black_pink_sneaker_1794817008193.jpg"
+                  alt="Sepasang sneakers hitam aksen pink dengan sol putih empuk dari koleksi Muliana Shoes"
+                  referrerpolicy="no-referrer"
+                  class="h-full w-full object-cover object-center"
+                  onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden'); this.nextElementSibling.classList.add('flex');"
+                />
+                <div class="hidden h-full w-full flex-col items-center justify-center bg-zinc-100 p-6 text-center">
+                  <p class="text-sm font-semibold text-zinc-800">Detail Sneakers Hitam Aksen Pink</p>
+                  <p class="mt-1 text-xs text-zinc-500">Sol empuk dan jahitan rapi siap dicoba langsung</p>
+                </div>
+                <figcaption class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-5 pt-14 text-white">
+                  <p class="text-sm font-semibold">Velo Hitam-Pink · Seri Favorit Harian</p>
+                  <p class="mt-0.5 text-xs text-zinc-200">
+                    Sol putih ringan dengan jahitan rapi, mudah dipadukan dengan outfit kasual.
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+
+            <!-- Right 4 Features List (Editorial Numbering 01-04) -->
+            <div class="order-1 flex flex-col justify-center lg:order-2 lg:col-span-7">
+              <p class="text-xs font-medium text-zinc-500">4 Keunggulan Muliana Shoes</p>
+              <h2 class="mt-2 font-display text-2xl font-bold tracking-tight text-zinc-900 sm:text-3xl text-balance">
+                Empat alasan pelanggan setia datang ke cabang Sunu
+              </h2>
+
+              <div class="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2">
+                <article class="rounded-xl border border-zinc-200 bg-canvas p-5">
+                  <p class="font-mono text-xs font-semibold text-rosebrand-700">01.</p>
+                  <h3 class="mt-2 font-display text-base font-bold text-zinc-900">
+                    Koleksi Lengkap &amp; Terkurasi
+                  </h3>
+                  <p class="mt-2 text-sm leading-relaxed text-zinc-600">
+                    Beragam model sneakers kasual, sepatu jalan santai, hingga lari ringan tersedia dalam pilihan warna netral maupun cerah.
+                  </p>
+                </article>
+
+                <article class="rounded-xl border border-zinc-200 bg-canvas p-5">
+                  <p class="font-mono text-xs font-semibold text-rosebrand-700">02.</p>
+                  <h3 class="mt-2 font-display text-base font-bold text-zinc-900">
+                    Bisa Coba &amp; Cek Detail Fisik
+                  </h3>
+                  <p class="mt-2 text-sm leading-relaxed text-zinc-600">
+                    Pegang langsung bahan upper-nya, tekan kelenturan solnya, dan coba berjalan di toko hingga benar-benar yakin.
+                  </p>
+                </article>
+
+                <article class="rounded-xl border border-zinc-200 bg-canvas p-5">
+                  <p class="font-mono text-xs font-semibold text-rosebrand-700">03.</p>
+                  <h3 class="mt-2 font-display text-base font-bold text-zinc-900">
+                    Ringan &amp; Empuk Dipakai Lama
+                  </h3>
+                  <p class="mt-2 text-sm leading-relaxed text-zinc-600">
+                    Dirancang dengan bantalan dalam yang menyerap tekanan tumit, cocok untuk kuliah, kerja, maupun jalan sore.
+                  </p>
+                </article>
+
+                <article class="rounded-xl border border-zinc-200 bg-canvas p-5">
+                  <p class="font-mono text-xs font-semibold text-rosebrand-700">04.</p>
+                  <h3 class="mt-2 font-display text-base font-bold text-zinc-900">
+                    Lokasi Jelas &amp; Ramah Pemula
+                  </h3>
+                  <p class="mt-2 text-sm leading-relaxed text-zinc-600">
+                    Terletak di titik mudah dikenali — Cabang Lampu Merah Sunu — dengan bantuan staf yang siap mencarikan ukuranmu.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. VIDEO PROMOSI TOKO -->
+      <section id="video" class="border-b border-zinc-200 bg-zinc-950 py-14 text-white sm:py-16 lg:py-20">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 items-center gap-10 lg:grid-cols-12 lg:gap-12">
+            <!-- Video Player (9:16 Portrait Container) -->
+            <div class="lg:col-span-5">
+              <div class="mx-auto max-w-[320px] overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900">
+                <video
+                  id="promo-video"
+                  class="aspect-[9/16] w-full bg-black object-cover"
+                  src="/assets/aistudio/WhatsApp_Video_2026-11-15_at_22.49.29_c290578e.mp4"
+                  poster="/src/assets/images/muliana_hero_sneaker_rack_1794817007845.jpg"
+                  controls
+                  playsinline
+                  preload="metadata"
+                >
+                  Browser Anda tidak mendukung pemutaran video HTML5.
+                </video>
+              </div>
+            </div>
+
+            <!-- Interactive Video Chapters & Story Guide -->
+            <div class="lg:col-span-7">
+              <p class="text-xs font-medium text-rosebrand-100">Video Tur Toko · 60 Detik</p>
+              <h2 class="mt-2 font-display text-2xl font-bold tracking-tight text-white sm:text-3xl text-balance">
+                Lihat langsung suasana Muliana Shoes Cabang Lampu Merah Sunu
+              </h2>
+              <p class="mt-3 max-w-xl text-base leading-relaxed text-zinc-300">
+                Ikuti Kakak Anggi menjelajahi fasad toko, melihat jajaran rak sepatu, mengecek detail material,
+                hingga mencoba langsung kenyamanan sneakers putih aksen pink di lantai toko.
+              </p>
+
+              <!-- Interactive Chapter Jump Buttons -->
+              <div class="mt-7">
+                <p class="text-xs font-semibold uppercase tracking-wider text-zinc-400">
+                  Lompat ke Bagian Video
+                </p>
+                <div class="mt-3 grid grid-cols-1 gap-2.5 sm:grid-cols-2" role="group" aria-label="Babak video promosi">
+                  <button
+                    type="button"
+                    data-seek="0"
+                    class="video-chapter-btn flex min-h-[44px] items-center justify-between rounded-lg border border-zinc-800 bg-zinc-900 px-4 py-2.5 text-left text-sm font-medium text-zinc-200 hover:border-zinc-700 hover:bg-zinc-800 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-600"
+                  >
+                    <span>1. Tampak Depan Toko</span>
+                    <span class="font-mono text-xs text-zinc-400 tabular-nums">00:00</span>
+                  </button>
+                  <button
+                    type="button"
+                    data-seek="15"
+                    class="video-chapter-btn flex min-h-[44px] items-center justify-between rounded-lg border border-zinc-800 bg-zinc-900 px-4 py-2.5 text-left text-sm font-medium text-zinc-200 hover:border-zinc-700 hover:bg-zinc-800 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-600"
+                  >
+                    <span>2. Memilih Model di Rak</span>
+                    <span class="font-mono text-xs text-zinc-400 tabular-nums">00:15</span>
+                  </button>
+                  <button
+                    type="button"
+                    data-seek="23"
+                    class="video-chapter-btn flex min-h-[44px] items-center justify-between rounded-lg border border-zinc-800 bg-zinc-900 px-4 py-2.5 text-left text-sm font-medium text-zinc-200 hover:border-zinc-700 hover:bg-zinc-800 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-600"
+                  >
+                    <span>3. Detail Sneakers Hitam-Pink</span>
+                    <span class="font-mono text-xs text-zinc-400 tabular-nums">00:23</span>
+                  </button>
+                  <button
+                    type="button"
+                    data-seek="39"
+                    class="video-chapter-btn flex min-h-[44px] items-center justify-between rounded-lg border border-zinc-800 bg-zinc-900 px-4 py-2.5 text-left text-sm font-medium text-zinc-200 hover:border-zinc-700 hover:bg-zinc-800 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-600"
+                  >
+                    <span>4. Coba &amp; Jalan di Toko</span>
+                    <span class="font-mono text-xs text-zinc-400 tabular-nums">00:39</span>
+                  </button>
+                </div>
+                <p id="video-status" class="mt-3 text-xs text-zinc-400" aria-live="polite">
+                  Pilih salah satu bagian di atas untuk memutar momen tertentu pada video.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. PENAWARAN SIMULASI INTERAKTIF -->
+      <section id="simulasi" class="border-b border-zinc-200 bg-canvas py-14 sm:py-16 lg:py-20">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div class="max-w-2xl">
+            <p class="text-xs font-medium text-zinc-500">Penawaran Simulasi Interaktif</p>
+            <h2 class="mt-2 font-display text-2xl font-bold tracking-tight text-zinc-900 sm:text-3xl text-balance">
+              Simulasi pilih sepatu, ukuran, dan estimasi paket hemat
+            </h2>
+            <p class="mt-3 text-base text-zinc-600">
+              Atur kombinasi model, ukuran EU, dan jumlah pasang di bawah ini untuk melihat estimasi biaya
+              beserta potongan paket sebelum berkunjung ke toko.
+            </p>
+          </div>
+
+          <div class="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-12">
+            <!-- Left: Interactive Controls -->
+            <div class="space-y-7 rounded-xl border border-zinc-200 bg-white p-5 sm:p-8 lg:col-span-7">
+              <!-- Step 1: Model Selection -->
+              <div>
+                <h3 class="font-display text-base font-bold text-zinc-900">1. Pilih Model Sepatu</h3>
+                <div id="shoe-options" class="mt-3 grid grid-cols-1 gap-3 sm:grid-cols-2" role="radiogroup" aria-label="Pilihan model sepatu">
+                  <button
+                    type="button"
+                    role="radio"
+                    aria-checked="true"
+                    data-shoe-id="aeris-putih-pink"
+                    data-shoe-name="Aeris Putih-Pink"
+                    data-shoe-price="185000"
+                    data-shoe-note="Putih bersih dengan aksen pink lembut &amp; sol empuk"
+                    data-shoe-img="/src/assets/images/muliana_white_pink_sneaker_1794817008291.jpg"
+                    class="shoe-option-btn flex min-h-[68px] flex-col justify-between rounded-lg border-2 border-rosebrand-700 bg-rosebrand-50/60 p-3.5 text-left transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700"
+                  >
+                    <span class="font-semibold text-sm text-zinc-900">Aeris Putih-Pink</span>
+                    <span class="mt-1 flex items-center justify-between text-xs text-zinc-600">
+                      <span>Kasual Ringan</span>
+                      <span class="font-mono font-semibold text-zinc-900 tabular-nums">Rp185.000</span>
+                    </span>
+                  </button>
+
+                  <button
+                    type="button"
+                    role="radio"
+                    aria-checked="false"
+                    data-shoe-id="velo-hitam-pink"
+                    data-shoe-name="Velo Hitam-Pink"
+                    data-shoe-price="195000"
+                    data-shoe-note="Sol putih empuk, kontras sporty"
+                    data-shoe-img="/src/assets/images/muliana_black_pink_sneaker_1794817008193.jpg"
+                    class="shoe-option-btn flex min-h-[68px] flex-col justify-between rounded-lg border border-zinc-200 bg-white p-3.5 text-left hover:border-zinc-400 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700"
+                  >
+                    <span class="font-semibold text-sm text-zinc-900">Velo Hitam-Pink</span>
+                    <span class="mt-1 flex items-center justify-between text-xs text-zinc-600">
+                      <span>Sport &amp; Harian</span>
+                      <span class="font-mono font-semibold text-zinc-900 tabular-nums">Rp195.000</span>
+                    </span>
+                  </button>
+
+                  <button
+                    type="button"
+                    role="radio"
+                    aria-checked="false"
+                    data-shoe-id="stride-biru-royal"
+                    data-shoe-name="Stride Biru Royal"
+                    data-shoe-price="210000"
+                    data-shoe-note="Upper mesh breathable untuk jalan jauh"
+                    data-shoe-img="/src/assets/images/muliana_blue_royal_sneaker_1794817007898.jpg"
+                    class="shoe-option-btn flex min-h-[68px] flex-col justify-between rounded-lg border border-zinc-200 bg-white p-3.5 text-left hover:border-zinc-400 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700"
+                  >
+                    <span class="font-semibold text-sm text-zinc-900">Stride Biru Royal</span>
+                    <span class="mt-1 flex items-center justify-between text-xs text-zinc-600">
+                      <span>Lari Ringan</span>
+                      <span class="font-mono font-semibold text-zinc-900 tabular-nums">Rp210.000</span>
+                    </span>
+                  </button>
+
+                  <button
+                    type="button"
+                    role="radio"
+                    aria-checked="false"
+                    data-shoe-id="lumina-putih-klasik"
+                    data-shoe-name="Lumina Putih Klasik"
+                    data-shoe-price="175000"
+                    data-shoe-note="Minimalis bersih untuk kuliah &amp; kerja"
+                    data-shoe-img="/assets/aistudio/image_ffd89200.png"
+                    class="shoe-option-btn flex min-h-[68px] flex-col justify-between rounded-lg border border-zinc-200 bg-white p-3.5 text-left hover:border-zinc-400 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700"
+                  >
+                    <span class="font-semibold text-sm text-zinc-900">Lumina Putih Klasik</span>
+                    <span class="mt-1 flex items-center justify-between text-xs text-zinc-600">
+                      <span>Harian Netral</span>
+                      <span class="font-mono font-semibold text-zinc-900 tabular-nums">Rp175.000</span>
+                    </span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Step 2: EU Size Selector -->
+              <div>
+                <div class="flex items-baseline justify-between gap-2">
+                  <h3 class="font-display text-base font-bold text-zinc-900">2. Pilih Ukuran (EU)</h3>
+                  <span id="size-hint" class="text-xs text-zinc-500 tabular-nums">Terpilih: EU 39 (24,5 cm)</span>
+                </div>
+                <div id="size-options" class="mt-3 grid grid-cols-4 gap-2 sm:grid-cols-8" role="radiogroup" aria-label="Pilihan ukuran sepatu EU">
+                  <button type="button" role="radio" aria-checked="false" data-size="36" data-cm="23,0" class="size-btn min-h-[44px] rounded-lg border border-zinc-200 bg-white font-mono text-sm font-medium text-zinc-800 hover:border-zinc-400 tabular-nums focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700">36</button>
+                  <button type="button" role="radio" aria-checked="false" data-size="37" data-cm="23,5" class="size-btn min-h-[44px] rounded-lg border border-zinc-200 bg-white font-mono text-sm font-medium text-zinc-800 hover:border-zinc-400 tabular-nums focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700">37</button>
+                  <button type="button" role="radio" aria-checked="false" data-size="38" data-cm="24,0" class="size-btn min-h-[44px] rounded-lg border border-zinc-200 bg-white font-mono text-sm font-medium text-zinc-800 hover:border-zinc-400 tabular-nums focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700">38</button>
+                  <button type="button" role="radio" aria-checked="true" data-size="39" data-cm="24,5" class="size-btn min-h-[44px] rounded-lg border-2 border-rosebrand-700 bg-rosebrand-50 font-mono text-sm font-semibold text-rosebrand-800 tabular-nums focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700">39</button>
+                  <button type="button" role="radio" aria-checked="false" data-size="40" data-cm="25,0" class="size-btn min-h-[44px] rounded-lg border border-zinc-200 bg-white font-mono text-sm font-medium text-zinc-800 hover:border-zinc-400 tabular-nums focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700">40</button>
+                  <button type="button" role="radio" aria-checked="false" data-size="41" data-cm="26,0" class="size-btn min-h-[44px] rounded-lg border border-zinc-200 bg-white font-mono text-sm font-medium text-zinc-800 hover:border-zinc-400 tabular-nums focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700">41</button>
+                  <button type="button" role="radio" aria-checked="false" data-size="42" data-cm="26,5" class="size-btn min-h-[44px] rounded-lg border border-zinc-200 bg-white font-mono text-sm font-medium text-zinc-800 hover:border-zinc-400 tabular-nums focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700">42</button>
+                  <button type="button" role="radio" aria-checked="false" data-size="43" data-cm="27,5" class="size-btn min-h-[44px] rounded-lg border border-zinc-200 bg-white font-mono text-sm font-medium text-zinc-800 hover:border-zinc-400 tabular-nums focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700">43</button>
+                </div>
+              </div>
+
+              <!-- Step 3: Quantity & Add-ons -->
+              <div class="grid grid-cols-1 gap-6 border-t border-zinc-100 pt-6 sm:grid-cols-2">
+                <div>
+                  <h3 class="font-display text-base font-bold text-zinc-900">3. Jumlah Pasang</h3>
+                  <p class="mt-1 text-xs text-zinc-500">Beli 2 pasang hemat Rp20.000 · 3+ pasang hemat Rp35.000</p>
+                  <div class="mt-3 inline-flex items-center rounded-lg border border-zinc-200 bg-canvas">
+                    <button
+                      id="qty-minus"
+                      type="button"
+                      aria-label="Kurangi jumlah pasang"
+                      class="flex h-11 w-11 items-center justify-center text-lg font-semibold text-zinc-700 hover:bg-zinc-200/60 rounded-l-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700"
+                    >
+                      −
+                    </button>
+                    <span id="qty-value" class="w-12 text-center font-mono text-base font-semibold text-zinc-900 tabular-nums" aria-live="polite">
+                      1
+                    </span>
+                    <button
+                      id="qty-plus"
+                      type="button"
+                      aria-label="Tambah jumlah pasang"
+                      class="flex h-11 w-11 items-center justify-center text-lg font-semibold text-zinc-700 hover:bg-zinc-200/60 rounded-r-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700"
+                    >
+                      +
+                    </button>
+                  </div>
+                </div>
+
+                <div>
+                  <h3 class="font-display text-base font-bold text-zinc-900">4. Tambahan &amp; Pengambilan</h3>
+                  <div class="mt-3 space-y-2.5">
+                    <label class="flex min-h-[40px] cursor-pointer items-center gap-3 text-sm text-zinc-700">
+                      <input
+                        id="addon-socks"
+                        type="checkbox"
+                        class="h-4 w-4 rounded border-zinc-300 text-rosebrand-700 focus:ring-rosebrand-700"
+                      />
+                      <span>Tambah Kaos Kaki Katun <span class="font-mono text-xs text-zinc-500 tabular-nums">(+Rp15.000)</span></span>
+                    </label>
+                    <label class="flex min-h-[40px] cursor-pointer items-center gap-3 text-sm text-zinc-700">
+                      <input
+                        id="addon-delivery"
+                        type="checkbox"
+                        class="h-4 w-4 rounded border-zinc-300 text-rosebrand-700 focus:ring-rosebrand-700"
+                      />
+                      <span>Antar Kurir Area Kota <span class="font-mono text-xs text-zinc-500 tabular-nums">(+Rp12.000)</span></span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Live Simulation Result & Reservation Form -->
+            <div class="flex flex-col justify-between rounded-xl border border-zinc-200 bg-white p-5 sm:p-8 lg:col-span-5">
+              <div>
+                <div class="flex items-center justify-between border-b border-zinc-100 pb-4">
+                  <h3 class="font-display text-lg font-bold text-zinc-900">Ringkasan Simulasi</h3>
+                  <button
+                    id="reset-sim-btn"
+                    type="button"
+                    class="text-xs font-semibold text-zinc-500 underline underline-offset-4 hover:text-zinc-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700 rounded"
+                  >
+                    Reset
+                  </button>
+                </div>
+
+                <div class="mt-4 overflow-hidden rounded-lg border border-zinc-200 bg-zinc-100 aspect-[4/3]">
+                  <img
+                    id="sim-preview-img"
+                    src="/src/assets/images/muliana_white_pink_sneaker_1794817008291.jpg"
+                    alt="Preview sepatu Aeris Putih-Pink"
+                    referrerpolicy="no-referrer"
+                    class="h-full w-full object-cover object-center"
+                    onerror="this.style.display='none'; this.nextElementSibling.classList.remove('hidden'); this.nextElementSibling.classList.add('flex');"
+                  />
+                  <div class="hidden h-full w-full flex-col items-center justify-center bg-zinc-100 p-4 text-center">
+                    <p class="text-sm font-semibold text-zinc-800">Preview Model Sepatu</p>
+                    <p class="mt-1 text-xs text-zinc-500">Koleksi Muliana Shoes</p>
+                  </div>
+                </div>
+
+                <dl class="mt-5 space-y-3 text-sm">
+                  <div class="flex items-start justify-between gap-4">
+                    <dt class="text-zinc-500">Model Terpilih</dt>
+                    <dd id="summary-model" class="text-right font-semibold text-zinc-900">Aeris Putih-Pink</dd>
+                  </div>
+                  <div class="flex items-start justify-between gap-4">
+                    <dt class="text-zinc-500">Catatan Seri</dt>
+                    <dd id="summary-note" class="text-right text-xs text-zinc-600">Putih bersih dengan aksen pink lembut &amp; sol empuk</dd>
+                  </div>
+                  <div class="flex items-center justify-between gap-4">
+                    <dt class="text-zinc-500">Ukuran &amp; Jumlah</dt>
+                    <dd id="summary-size-qty" class="font-mono font-medium text-zinc-900 tabular-nums">EU 39 · 1 pasang</dd>
+                  </div>
+                  <div class="flex items-center justify-between gap-4 border-t border-zinc-100 pt-3">
+                    <dt class="text-zinc-500">Subtotal Sepatu</dt>
+                    <dd id="summary-subtotal" class="font-mono font-medium text-zinc-900 tabular-nums">Rp185.000</dd>
+                  </div>
+                  <div id="row-addons" class="hidden items-center justify-between gap-4">
+                    <dt class="text-zinc-500">Tambahan &amp; Kurir</dt>
+                    <dd id="summary-addons" class="font-mono font-medium text-zinc-900 tabular-nums">Rp0</dd>
+                  </div>
+                  <div id="row-discount" class="hidden items-center justify-between gap-4 text-emerald-700">
+                    <dt class="font-medium">Hemat Paket Bundling</dt>
+                    <dd id="summary-discount" class="font-mono font-semibold tabular-nums">-Rp0</dd>
+                  </div>
+                  <div class="flex items-baseline justify-between gap-4 border-t border-zinc-200 pt-4">
+                    <dt class="font-display text-base font-bold text-zinc-900">Estimasi Total</dt>
+                    <dd id="summary-total" class="font-display text-2xl font-bold text-rosebrand-700 tabular-nums">Rp185.000</dd>
+                  </div>
+                </dl>
+              </div>
+
+              <!-- Booking / Lock Simulation Form -->
+              <form id="sim-form" class="mt-6 space-y-3 border-t border-zinc-100 pt-6" novalidate>
+                <p class="text-xs font-semibold text-zinc-700">
+                  Simpan hasil simulasi untuk cek stok sebelum ke toko:
+                </p>
+                <div>
+                  <label for="customer-name" class="sr-only">Nama Anda</label>
+                  <input
+                    id="customer-name"
+                    name="name"
+                    type="text"
+                    required
+                    placeholder="Nama lengkap Anda"
+                    class="w-full min-h-[44px] rounded-lg border border-zinc-300 bg-canvas px-3.5 py-2 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-rosebrand-700 focus:bg-white focus:outline-none focus:ring-1 focus:ring-rosebrand-700"
+                  />
+                </div>
+                <div>
+                  <label for="customer-wa" class="sr-only">Nomor WhatsApp</label>
+                  <input
+                    id="customer-wa"
+                    name="whatsapp"
+                    type="tel"
+                    required
+                    placeholder="Nomor WhatsApp aktif (contoh: 0812xxxx)"
+                    class="w-full min-h-[44px] rounded-lg border border-zinc-300 bg-canvas px-3.5 py-2 text-sm text-zinc-900 placeholder:text-zinc-400 focus:border-rosebrand-700 focus:bg-white focus:outline-none focus:ring-1 focus:ring-rosebrand-700"
+                  />
+                </div>
+                <p id="sim-error" class="hidden text-xs font-medium text-red-700" role="alert"></p>
+                <button
+                  type="submit"
+                  class="w-full min-h-[48px] rounded-lg bg-rosebrand-700 px-5 py-3 text-sm font-semibold text-white whitespace-nowrap hover:bg-rosebrand-800 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700 focus-visible:ring-offset-2"
+                >
+                  Kunci Penawaran Simulasi
+                </button>
+                <a
+                  id="sim-direct-wa"
+                  href="https://wa.me/6285756850861"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="flex w-full min-h-[44px] items-center justify-center gap-2 rounded-lg border border-emerald-700/30 bg-emerald-50/70 px-4 py-2.5 text-xs sm:text-sm font-semibold text-emerald-900 whitespace-nowrap hover:bg-emerald-100/80 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-700"
+                >
+                  <svg class="h-4 w-4 text-emerald-700 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                    <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.79 14.12c-.24.68-1.41 1.3-1.95 1.38-.5.08-1.13.11-1.82-.11-.42-.14-.96-.32-1.65-.62-2.9-1.26-4.79-4.18-4.94-4.38-.14-.19-1.18-1.57-1.18-3s.75-2.12 1.01-2.41c.26-.29.58-.36.77-.36h.56c.18 0 .42-.07.66.5.24.58.82 2 .89 2.15.07.14.12.31.02.5-.1.19-.14.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.3-.12.59.17.29.75 1.24 1.62 2.01 1.11.99 2.05 1.3 2.34 1.44.29.14.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.65-.14.26.1 1.69.8 1.98.94.29.14.48.22.55.34.07.12.07.69-.17 1.37z" />
+                  </svg>
+                  <span>Tanya Stok Pilihan Ini via WhatsApp</span>
+                </a>
+              </form>
+
+              <!-- Confirmation State -->
+              <div
+                id="sim-confirmation"
+                class="hidden mt-6 rounded-lg border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-950"
+                role="status"
+                aria-live="polite"
+              >
+                <p class="font-semibold">Simulasi tersimpan — siap dicek di toko</p>
+                <p id="sim-receipt-detail" class="mt-1 text-xs leading-relaxed text-emerald-900"></p>
+                <p class="mt-2 font-mono text-xs font-semibold text-emerald-800 tabular-nums" id="sim-receipt-code"></p>
+                <a
+                  id="sim-wa-link"
+                  href="https://wa.me/6285756850861"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mt-3 inline-flex w-full min-h-[44px] items-center justify-center gap-2 rounded-lg bg-emerald-700 px-4 py-2.5 text-xs sm:text-sm font-semibold text-white whitespace-nowrap hover:bg-emerald-800 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-700"
+                >
+                  <span>Kirim Ringkasan ke WhatsApp Penjual</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. FAQ AKSESIBEL -->
+      <section id="faq" class="border-b border-zinc-200 bg-white py-14 sm:py-16 lg:py-20">
+        <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+          <div class="text-left sm:text-center">
+            <p class="text-xs font-medium text-zinc-500">Pertanyaan Umum</p>
+            <h2 class="mt-2 font-display text-2xl font-bold tracking-tight text-zinc-900 sm:text-3xl text-balance">
+              Hal yang paling sering ditanyakan pembeli
+            </h2>
+          </div>
+
+          <div id="faq-list" class="mt-10 divide-y divide-zinc-200 border-y border-zinc-200">
+            <!-- FAQ 1 -->
+            <div>
+              <h3>
+                <button
+                  type="button"
+                  id="faq-btn-1"
+                  aria-expanded="true"
+                  aria-controls="faq-panel-1"
+                  class="faq-trigger flex min-h-[56px] w-full items-center justify-between gap-4 py-4 text-left font-display text-base font-semibold text-zinc-900 hover:text-rosebrand-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700"
+                >
+                  <span>Di mana lokasi persis toko Muliana Shoes?</span>
+                  <span class="faq-icon font-mono text-lg text-zinc-500 shrink-0" aria-hidden="true">−</span>
+                </button>
+              </h3>
+              <div id="faq-panel-1" role="region" aria-labelledby="faq-btn-1" class="pb-5 text-sm leading-relaxed text-zinc-600">
+                Muliana Shoes berlokasi di <strong>Cabang Lampu Merah Sunu</strong>. Papan nama toko berwarna merah muda bertuliskan
+                “MULIANA SHOES — Cabang Lampu Merah Sunu” tampak jelas dari pinggir jalan sehingga sangat mudah dikenali.
+              </div>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div>
+              <h3>
+                <button
+                  type="button"
+                  id="faq-btn-2"
+                  aria-expanded="false"
+                  aria-controls="faq-panel-2"
+                  class="faq-trigger flex min-h-[56px] w-full items-center justify-between gap-4 py-4 text-left font-display text-base font-semibold text-zinc-900 hover:text-rosebrand-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700"
+                >
+                  <span>Apakah boleh mencoba lebih dari satu model atau ukuran di toko?</span>
+                  <span class="faq-icon font-mono text-lg text-zinc-500 shrink-0" aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div id="faq-panel-2" role="region" aria-labelledby="faq-btn-2" hidden class="pb-5 text-sm leading-relaxed text-zinc-600">
+                Tentu saja. Kamu bebas membandingkan warna di rak dan mencoba beberapa ukuran sekaligus hingga menemukan
+                sepatu yang paling pas dan nyaman dipakai melangkah.
+              </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div>
+              <h3>
+                <button
+                  type="button"
+                  id="faq-btn-3"
+                  aria-expanded="false"
+                  aria-controls="faq-panel-3"
+                  class="faq-trigger flex min-h-[56px] w-full items-center justify-between gap-4 py-4 text-left font-display text-base font-semibold text-zinc-900 hover:text-rosebrand-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700"
+                >
+                  <span>Apakah hasil simulasi harga di halaman ini mengikat?</span>
+                  <span class="faq-icon font-mono text-lg text-zinc-500 shrink-0" aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div id="faq-panel-3" role="region" aria-labelledby="faq-btn-3" hidden class="pb-5 text-sm leading-relaxed text-zinc-600">
+                Simulasi berfungsi membantu kamu merencanakan anggaran serta memilih model dan ukuran sebelum datang.
+                Jika kamu mengunci simulasi dengan nomor WhatsApp, staf kami membantu memastikan ketersediaan nomor tersebut saat kamu tiba.
+              </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div>
+              <h3>
+                <button
+                  type="button"
+                  id="faq-btn-4"
+                  aria-expanded="false"
+                  aria-controls="faq-panel-4"
+                  class="faq-trigger flex min-h-[56px] w-full items-center justify-between gap-4 py-4 text-left font-display text-base font-semibold text-zinc-900 hover:text-rosebrand-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700"
+                >
+                  <span>Rentang ukuran sepatu apa saja yang tersedia?</span>
+                  <span class="faq-icon font-mono text-lg text-zinc-500 shrink-0" aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div id="faq-panel-4" role="region" aria-labelledby="faq-btn-4" hidden class="pb-5 text-sm leading-relaxed text-zinc-600">
+                Sebagian besar koleksi sneakers harian dan olahraga kami tersedia lengkap mulai ukuran EU 36 hingga 43.
+                Tersedia juga variasi warna netral untuk kuliah, kerja, hingga aktivitas santai.
+              </div>
+            </div>
+
+            <!-- FAQ 5 -->
+            <div>
+              <h3>
+                <button
+                  type="button"
+                  id="faq-btn-5"
+                  aria-expanded="false"
+                  aria-controls="faq-panel-5"
+                  class="faq-trigger flex min-h-[56px] w-full items-center justify-between gap-4 py-4 text-left font-display text-base font-semibold text-zinc-900 hover:text-rosebrand-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700"
+                >
+                  <span>Bagaimana jam buka dan metode pembayaran yang diterima?</span>
+                  <span class="faq-icon font-mono text-lg text-zinc-500 shrink-0" aria-hidden="true">+</span>
+                </button>
+              </h3>
+              <div id="faq-panel-5" role="region" aria-labelledby="faq-btn-5" hidden class="pb-5 text-sm leading-relaxed text-zinc-600">
+                Toko buka setiap hari pukul 09.00 – 21.00 WITA. Pembayaran dapat dilakukan secara tunai, QRIS, maupun transfer bank langsung di kasir.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8. CTA AKHIR -->
+      <section id="kunjungi" class="bg-canvas py-14 sm:py-16 lg:py-20">
+        <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+          <div class="rounded-2xl border border-zinc-200 bg-white p-7 sm:p-10 lg:flex lg:items-center lg:justify-between lg:gap-10 lg:p-12">
+            <div class="max-w-xl">
+              <p class="text-xs font-medium text-zinc-500">Cabang Lampu Merah Sunu</p>
+              <h2 class="mt-2 font-display text-2xl font-bold tracking-tight text-zinc-900 sm:text-3xl text-balance">
+                Jadi tunggu apa lagi? Kunjungi Muliana Shoes hari ini
+              </h2>
+              <p class="mt-3 text-base text-zinc-600">
+                Coba langsung pilihanmu di toko, padukan dengan gaya andalanmu, dan pulang dengan sepatu yang benar-benar nyaman dipakai.
+              </p>
+            </div>
+            <div class="mt-6 flex flex-wrap items-center gap-3 lg:mt-0 lg:shrink-0">
+              <a
+                href="https://wa.me/6285756850861?text=Halo%20Muliana%20Shoes%2C%20saya%20ingin%20tanya%20ketersediaan%20sepatu%20di%20Cabang%20Lampu%20Merah%20Sunu."
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex min-h-[48px] items-center justify-center gap-2 rounded-lg bg-rosebrand-700 px-6 py-3 text-sm font-semibold text-white whitespace-nowrap shrink-0 hover:bg-rosebrand-800 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700 focus-visible:ring-offset-2"
+              >
+                <svg class="h-4 w-4 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.79 14.12c-.24.68-1.41 1.3-1.95 1.38-.5.08-1.13.11-1.82-.11-.42-.14-.96-.32-1.65-.62-2.9-1.26-4.79-4.18-4.94-4.38-.14-.19-1.18-1.57-1.18-3s.75-2.12 1.01-2.41c.26-.29.58-.36.77-.36h.56c.18 0 .42-.07.66.5.24.58.82 2 .89 2.15.07.14.12.31.02.5-.1.19-.14.31-.29.48-.14.17-.3.38-.43.51-.14.14-.29.3-.12.59.17.29.75 1.24 1.62 2.01 1.11.99 2.05 1.3 2.34 1.44.29.14.46.12.63-.07.17-.19.72-.84.91-1.13.19-.29.38-.24.65-.14.26.1 1.69.8 1.98.94.29.14.48.22.55.34.07.12.07.69-.17 1.37z" />
+                </svg>
+                <span>Hubungi WhatsApp Penjual</span>
+              </a>
+              <a
+                href="#simulasi"
+                class="inline-flex min-h-[48px] items-center justify-center rounded-lg border border-zinc-300 bg-white px-5 py-3 text-sm font-semibold text-zinc-800 whitespace-nowrap shrink-0 hover:bg-zinc-50 transition-colors duration-150 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rosebrand-700"
+              >
+                Simulasi &amp; Kunci Stok
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- 9. FOOTBAR (Quiet Footer) -->
+    <footer class="border-t border-zinc-200 bg-white py-10">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
+          <div>
+            <p class="font-display text-base font-bold text-zinc-900">Muliana Shoes</p>
+            <p class="mt-1 text-sm text-zinc-600">Sepatu Pilihanmu, Gaya Andalanmu</p>
+            <p class="mt-2 text-xs text-zinc-500">
+              Cabang Lampu Merah Sunu · Buka Setiap Hari 09.00 – 21.00 WITA
+            </p>
+            <p class="mt-1.5 text-xs text-zinc-600">
+              WhatsApp: <a href="https://wa.me/6285756850861" target="_blank" rel="noopener noreferrer" class="font-mono font-semibold text-zinc-900 underline underline-offset-4 hover:text-rosebrand-700 tabular-nums">0857-5685-0861</a>
+            </p>
+          </div>
+
+          <nav aria-label="Tautan footer" class="flex flex-wrap gap-x-6 gap-y-2 text-sm text-zinc-600">
+            <a href="#beranda" class="hover:text-zinc-900 hover:underline underline-offset-4">Beranda</a>
+            <a href="#masalah-solusi" class="hover:text-zinc-900 hover:underline underline-offset-4">Solusi</a>
+            <a href="#fitur" class="hover:text-zinc-900 hover:underline underline-offset-4">Keunggulan</a>
+            <a href="#video" class="hover:text-zinc-900 hover:underline underline-offset-4">Video</a>
+            <a href="#simulasi" class="hover:text-zinc-900 hover:underline underline-offset-4">Simulasi</a>
+            <a href="#faq" class="hover:text-zinc-900 hover:underline underline-offset-4">FAQ</a>
+            <a href="https://wa.me/6285756850861" target="_blank" rel="noopener noreferrer" class="font-medium text-emerald-700 hover:text-emerald-800 hover:underline underline-offset-4">WhatsApp</a>
+          </nav>
+        </div>
+
+        <div class="mt-8 border-t border-zinc-100 pt-6 text-xs text-zinc-500">
+          <p>&copy; <span id="footer-year">2026</span> Muliana Shoes Cabang Lampu Merah Sunu. Hak cipta dilindungi.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Vanilla JavaScript -->
+    <script>
+      (function () {
+        'use strict';
+
+        // 1. Footer Year
+        var yearEl = document.getElementById('footer-year');
+        if (yearEl) {
+          yearEl.textContent = String(new Date().getFullYear());
+        }
+
+        // 2. Accessible Mobile Navigation Toggle
+        var mobileBtn = document.getElementById('mobile-menu-btn');
+        var mobileMenu = document.getElementById('mobile-menu');
+        var iconOpen = document.getElementById('icon-menu-open');
+        var iconClose = document.getElementById('icon-menu-close');
+        var mobileLinks = document.querySelectorAll('.mobile-nav-link');
+
+        function setMobileMenu(open) {
+          if (!mobileBtn || !mobileMenu) return;
+          mobileBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+          mobileBtn.setAttribute('aria-label', open ? 'Tutup menu navigasi' : 'Buka menu navigasi');
+          mobileMenu.classList.toggle('hidden', !open);
+          if (iconOpen && iconClose) {
+            iconOpen.classList.toggle('hidden', open);
+            iconClose.classList.toggle('hidden', !open);
+          }
+        }
+
+        if (mobileBtn) {
+          mobileBtn.addEventListener('click', function () {
+            var isOpen = mobileBtn.getAttribute('aria-expanded') === 'true';
+            setMobileMenu(!isOpen);
+          });
+        }
+
+        mobileLinks.forEach(function (link) {
+          link.addEventListener('click', function () {
+            setMobileMenu(false);
+          });
+        });
+
+        // 3. Video Chapter Seek Buttons
+        var promoVideo = document.getElementById('promo-video');
+        var chapterBtns = document.querySelectorAll('.video-chapter-btn');
+        var videoStatus = document.getElementById('video-status');
+
+        chapterBtns.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            var targetTime = Number(btn.getAttribute('data-seek') || '0');
+            chapterBtns.forEach(function (item) {
+              item.classList.remove('border-rosebrand-600', 'bg-zinc-800', 'text-white');
+              item.classList.add('border-zinc-800', 'bg-zinc-900', 'text-zinc-200');
+            });
+            btn.classList.remove('border-zinc-800', 'bg-zinc-900', 'text-zinc-200');
+            btn.classList.add('border-rosebrand-600', 'bg-zinc-800', 'text-white');
+
+            if (promoVideo) {
+              promoVideo.currentTime = targetTime;
+              var playPromise = promoVideo.play();
+              if (playPromise && typeof playPromise.catch === 'function') {
+                playPromise.catch(function () {});
+              }
+            }
+            if (videoStatus) {
+              var label = btn.querySelector('span');
+              videoStatus.textContent = 'Memutar bagian: ' + (label ? label.textContent : '');
+            }
+          });
+        });
+
+        // 4. Interactive Shoe & Price Simulation
+        var state = {
+          shoeId: 'aeris-putih-pink',
+          shoeName: 'Aeris Putih-Pink',
+          unitPrice: 185000,
+          note: 'Putih bersih dengan aksen pink lembut & sol empuk',
+          imgSrc: '/src/assets/images/muliana_white_pink_sneaker_1794817008291.jpg',
+          size: '39',
+          cm: '24,5',
+          qty: 1,
+          socks: false,
+          delivery: false,
+        };
+
+        var shoeBtns = document.querySelectorAll('.shoe-option-btn');
+        var sizeBtns = document.querySelectorAll('.size-btn');
+        var sizeHint = document.getElementById('size-hint');
+        var qtyMinus = document.getElementById('qty-minus');
+        var qtyPlus = document.getElementById('qty-plus');
+        var qtyValue = document.getElementById('qty-value');
+        var addonSocks = document.getElementById('addon-socks');
+        var addonDelivery = document.getElementById('addon-delivery');
+        var resetSimBtn = document.getElementById('reset-sim-btn');
+
+        var simPreviewImg = document.getElementById('sim-preview-img');
+        var summaryModel = document.getElementById('summary-model');
+        var summaryNote = document.getElementById('summary-note');
+        var summarySizeQty = document.getElementById('summary-size-qty');
+        var summarySubtotal = document.getElementById('summary-subtotal');
+        var rowAddons = document.getElementById('row-addons');
+        var summaryAddons = document.getElementById('summary-addons');
+        var rowDiscount = document.getElementById('row-discount');
+        var summaryDiscount = document.getElementById('summary-discount');
+        var summaryTotal = document.getElementById('summary-total');
+
+        function formatIDR(amount) {
+          return 'Rp' + Number(amount).toLocaleString('id-ID');
+        }
+
+        function computeTotals() {
+          var subtotal = state.unitPrice * state.qty;
+          var addonsCost = (state.socks ? 15000 : 0) + (state.delivery ? 12000 : 0);
+          var discount = 0;
+          if (state.qty >= 3) {
+            discount = 35000;
+          } else if (state.qty === 2) {
+            discount = 20000;
+          }
+          var total = subtotal + addonsCost - discount;
+          return {
+            subtotal: subtotal,
+            addonsCost: addonsCost,
+            discount: discount,
+            total: total,
+          };
+        }
+
+        function renderSimulation() {
+          var totals = computeTotals();
+          if (simPreviewImg) {
+            simPreviewImg.style.display = '';
+            if (simPreviewImg.nextElementSibling) {
+              simPreviewImg.nextElementSibling.classList.add('hidden');
+              simPreviewImg.nextElementSibling.classList.remove('flex');
+            }
+            simPreviewImg.src = state.imgSrc;
+            simPreviewImg.alt = 'Preview sepatu ' + state.shoeName;
+          }
+          if (qtyValue) qtyValue.textContent = String(state.qty);
+          if (sizeHint) sizeHint.textContent = 'Terpilih: EU ' + state.size + ' (' + state.cm + ' cm)';
+          if (summaryModel) summaryModel.textContent = state.shoeName;
+          if (summaryNote) summaryNote.textContent = state.note;
+          if (summarySizeQty) summarySizeQty.textContent = 'EU ' + state.size + ' · ' + state.qty + ' pasang';
+          if (summarySubtotal) summarySubtotal.textContent = formatIDR(totals.subtotal);
+
+          if (rowAddons && summaryAddons) {
+            if (totals.addonsCost > 0) {
+              rowAddons.classList.remove('hidden');
+              rowAddons.classList.add('flex');
+              summaryAddons.textContent = formatIDR(totals.addonsCost);
+            } else {
+              rowAddons.classList.add('hidden');
+              rowAddons.classList.remove('flex');
+            }
+          }
+
+          if (rowDiscount && summaryDiscount) {
+            if (totals.discount > 0) {
+              rowDiscount.classList.remove('hidden');
+              rowDiscount.classList.add('flex');
+              summaryDiscount.textContent = '-' + formatIDR(totals.discount);
+            } else {
+              rowDiscount.classList.add('hidden');
+              rowDiscount.classList.remove('flex');
+            }
+          }
+
+          if (summaryTotal) summaryTotal.textContent = formatIDR(totals.total);
+          updateDirectWaLink();
+        }
+
+        shoeBtns.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            shoeBtns.forEach(function (item) {
+              item.setAttribute('aria-checked', 'false');
+              item.classList.remove('border-2', 'border-rosebrand-700', 'bg-rosebrand-50/60');
+              item.classList.add('border', 'border-zinc-200', 'bg-white');
+            });
+            btn.setAttribute('aria-checked', 'true');
+            btn.classList.remove('border', 'border-zinc-200', 'bg-white');
+            btn.classList.add('border-2', 'border-rosebrand-700', 'bg-rosebrand-50/60');
+
+            state.shoeId = btn.getAttribute('data-shoe-id') || state.shoeId;
+            state.shoeName = btn.getAttribute('data-shoe-name') || state.shoeName;
+            state.unitPrice = Number(btn.getAttribute('data-shoe-price') || '185000');
+            state.note = btn.getAttribute('data-shoe-note') || '';
+            state.imgSrc = btn.getAttribute('data-shoe-img') || state.imgSrc;
+            renderSimulation();
+          });
+        });
+
+        sizeBtns.forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            sizeBtns.forEach(function (item) {
+              item.setAttribute('aria-checked', 'false');
+              item.classList.remove('border-2', 'border-rosebrand-700', 'bg-rosebrand-50', 'font-semibold', 'text-rosebrand-800');
+              item.classList.add('border', 'border-zinc-200', 'bg-white', 'font-medium', 'text-zinc-800');
+            });
+            btn.setAttribute('aria-checked', 'true');
+            btn.classList.remove('border', 'border-zinc-200', 'bg-white', 'font-medium', 'text-zinc-800');
+            btn.classList.add('border-2', 'border-rosebrand-700', 'bg-rosebrand-50', 'font-semibold', 'text-rosebrand-800');
+
+            state.size = btn.getAttribute('data-size') || '39';
+            state.cm = btn.getAttribute('data-cm') || '24,5';
+            renderSimulation();
+          });
+        });
+
+        if (qtyMinus) {
+          qtyMinus.addEventListener('click', function () {
+            if (state.qty > 1) {
+              state.qty -= 1;
+              renderSimulation();
+            }
+          });
+        }
+
+        if (qtyPlus) {
+          qtyPlus.addEventListener('click', function () {
+            if (state.qty < 5) {
+              state.qty += 1;
+              renderSimulation();
+            }
+          });
+        }
+
+        if (addonSocks) {
+          addonSocks.addEventListener('change', function () {
+            state.socks = addonSocks.checked;
+            renderSimulation();
+          });
+        }
+
+        if (addonDelivery) {
+          addonDelivery.addEventListener('change', function () {
+            state.delivery = addonDelivery.checked;
+            renderSimulation();
+          });
+        }
+
+        if (resetSimBtn) {
+          resetSimBtn.addEventListener('click', function () {
+            if (shoeBtns[0]) shoeBtns[0].click();
+            var defaultSizeBtn = document.querySelector('.size-btn[data-size="39"]');
+            if (defaultSizeBtn) defaultSizeBtn.click();
+            state.qty = 1;
+            state.socks = false;
+            state.delivery = false;
+            if (addonSocks) addonSocks.checked = false;
+            if (addonDelivery) addonDelivery.checked = false;
+            var confirmationBox = document.getElementById('sim-confirmation');
+            if (confirmationBox) confirmationBox.classList.add('hidden');
+            var errEl = document.getElementById('sim-error');
+            if (errEl) errEl.classList.add('hidden');
+            renderSimulation();
+          });
+        }
+
+        var SELLER_WA_NUMBER = '6285756850861';
+        var simDirectWa = document.getElementById('sim-direct-wa');
+        var simWaLink = document.getElementById('sim-wa-link');
+
+        function buildWhatsAppUrl(extraText) {
+          var totals = computeTotals();
+          var addonsList = [];
+          if (state.socks) addonsList.push('Kaos Kaki Katun (+Rp15.000)');
+          if (state.delivery) addonsList.push('Antar Kurir Area Kota (+Rp12.000)');
+          var message =
+            'Halo Muliana Shoes Cabang Lampu Merah Sunu, saya tertarik dengan simulasi sepatu berikut:\n' +
+            '- Model: ' +
+            state.shoeName +
+            '\n- Ukuran: EU ' +
+            state.size +
+            ' (' +
+            state.cm +
+            ' cm)\n- Jumlah: ' +
+            state.qty +
+            ' pasang' +
+            (addonsList.length ? '\n- Tambahan: ' + addonsList.join(', ') : '') +
+            (totals.discount > 0 ? '\n- Hemat Bundling: -' + formatIDR(totals.discount) : '') +
+            '\n- Estimasi Total: ' +
+            formatIDR(totals.total) +
+            (extraText ? '\n' + extraText : '') +
+            '\nApakah stoknya tersedia?';
+          return 'https://wa.me/' + SELLER_WA_NUMBER + '?text=' + encodeURIComponent(message);
+        }
+
+        function updateDirectWaLink() {
+          if (simDirectWa) {
+            simDirectWa.setAttribute('href', buildWhatsAppUrl(''));
+          }
+        }
+
+        // Simulation Form Validation & Confirmation
+        var simForm = document.getElementById('sim-form');
+        var nameInput = document.getElementById('customer-name');
+        var waInput = document.getElementById('customer-wa');
+        var simError = document.getElementById('sim-error');
+        var simConfirmation = document.getElementById('sim-confirmation');
+        var simReceiptDetail = document.getElementById('sim-receipt-detail');
+        var simReceiptCode = document.getElementById('sim-receipt-code');
+
+        if (simForm) {
+          simForm.addEventListener('submit', function (event) {
+            event.preventDefault();
+            var nameVal = nameInput ? nameInput.value.trim() : '';
+            var waVal = waInput ? waInput.value.replace(/\s+/g, '') : '';
+
+            if (nameVal.length < 2) {
+              if (simError) {
+                simError.textContent = 'Mohon masukkan nama lengkap minimal 2 huruf.';
+                simError.classList.remove('hidden');
+              }
+              if (nameInput) nameInput.focus();
+              return;
+            }
+
+            if (!/^(08|\+?62)[0-9]{8,13}$/.test(waVal)) {
+              if (simError) {
+                simError.textContent = 'Masukkan nomor WhatsApp aktif yang valid (contoh: 081234567890).';
+                simError.classList.remove('hidden');
+              }
+              if (waInput) waInput.focus();
+              return;
+            }
+
+            if (simError) simError.classList.add('hidden');
+
+            var totals = computeTotals();
+            var codeNum = Math.floor(1000 + Math.random() * 9000);
+            var simCode = 'MS-SUNU-' + codeNum;
+            if (simReceiptDetail) {
+              simReceiptDetail.textContent =
+                'Atas nama ' +
+                nameVal +
+                ' (' +
+                waVal +
+                '): ' +
+                state.shoeName +
+                ' ukuran EU ' +
+                state.size +
+                ' × ' +
+                state.qty +
+                ' pasang. Estimasi total: ' +
+                formatIDR(totals.total) +
+                '. Tunjukkan kode di bawah saat tiba di Cabang Lampu Merah Sunu atau kirim langsung ke WhatsApp penjual.';
+            }
+            if (simReceiptCode) {
+              simReceiptCode.textContent = 'KODE SIMULASI: ' + simCode;
+            }
+            if (simWaLink) {
+              simWaLink.setAttribute(
+                'href',
+                buildWhatsAppUrl('- Nama: ' + nameVal + '\n- No. WA Pembeli: ' + waVal + '\n- Kode Simulasi: ' + simCode)
+              );
+            }
+            if (simConfirmation) {
+              simConfirmation.classList.remove('hidden');
+            }
+          });
+        }
+
+        // 5. Accessible FAQ Accordion (Keyboard + ARIA)
+        var faqTriggers = Array.prototype.slice.call(document.querySelectorAll('.faq-trigger'));
+
+        faqTriggers.forEach(function (trigger, index) {
+          trigger.addEventListener('click', function () {
+            var isExpanded = trigger.getAttribute('aria-expanded') === 'true';
+            var targetId = trigger.getAttribute('aria-controls');
+            var panel = targetId ? document.getElementById(targetId) : null;
+            var icon = trigger.querySelector('.faq-icon');
+
+            trigger.setAttribute('aria-expanded', isExpanded ? 'false' : 'true');
+            if (panel) {
+              panel.hidden = isExpanded;
+            }
+            if (icon) {
+              icon.textContent = isExpanded ? '+' : '−';
+            }
+          });
+
+          trigger.addEventListener('keydown', function (event) {
+            if (event.key === 'ArrowDown') {
+              event.preventDefault();
+              var next = faqTriggers[(index + 1) % faqTriggers.length];
+              if (next) next.focus();
+            } else if (event.key === 'ArrowUp') {
+              event.preventDefault();
+              var prev = faqTriggers[(index - 1 + faqTriggers.length) % faqTriggers.length];
+              if (prev) prev.focus();
+            }
+          });
+        });
+
+        renderSimulation();
+      })();
+    </script>
+  </body>
+</html>
